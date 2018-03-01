@@ -36,3 +36,11 @@ body {
 	-o-transition: font-size 0.5s;
 	transition: font-size 0.5s;
 }
+.contacts {
+	line-height: 25px;
+	font-size: 18px;
+}
+.product a {
+	text-decoration: none;
+	color: black;
+}

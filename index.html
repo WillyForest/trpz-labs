@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>Lab1</title>
+	<title>K-Store</title>
 	<link rel="stylesheet" href="lib/bootstrap/css/bootstrap.min.css">
 	<link rel="stylesheet" href="css/main.css">
 </head>
@@ -18,14 +18,14 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="#">K-Store</a>
+      <a class="navbar-brand" href="index.html">K-Store</a>
     </div>
 
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav">
-        <li class="active"><a href="#">Главная <span class="sr-only">(current)</span></a></li>
-        <li><a href="#">О нас</a></li>
+        <li class="active"><a href="index.html">Главная <span class="sr-only">(current)</span></a></li>
+        <li><a href="about.html">О нас</a></li>
         <li class="dropdown">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Каталог <span class="caret"></span></a>
           <ul class="dropdown-menu">
@@ -39,33 +39,19 @@
           </ul>
         </li>
       </ul>
-      <form class="navbar-form navbar-left">
+      <form class="navbar-form navbar-right">
         <div class="form-group">
           <input type="text" class="form-control" placeholder="Search">
         </div>
         <button type="submit" class="btn btn-default">Submit</button>
       </form>
-      <ul class="nav navbar-nav navbar-right">
-        <li><a href="#">Link</a></li>
-        <li class="dropdown">
-          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
-          <ul class="dropdown-menu">
-            <li><a href="#">Action</a></li>
-            <li><a href="#">Another action</a></li>
-            <li><a href="#">Something else here</a></li>
-            <li role="separator" class="divider"></li>
-            <li><a href="#">Separated link</a></li>
-          </ul>
-        </li>
-      </ul>
+      
     </div><!-- /.navbar-collapse -->
   </div><!-- /.container-fluid -->
 </nav>
 </header>
 	<div class="container">
-		<div class="mx-auto" style="width: 200px;">
-			<h1>Главная</h1>
-		</div>
+		<h1>Главная</h1>
 		<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
   <!-- Indicators -->
   <ol class="carousel-indicators">
@@ -111,23 +97,25 @@
 			<div class="row">
 				<div class="col-md-4">
 				<div class="product">
+				<a href="p_info.html">
 					<img src="img/product_iphone6.png" alt="">
 					<h3>iPhone 6s</h3>
-					<h4>$600</h3>
+					<h4>$600</h4>
+				</a>	
 				</div>
 				</div>
 				<div class="col-md-4">
 					<div class="product">
 					<img src="img/product_ipad.png" alt="">
 					<h3>iPad mini 4</h3>
-					<h4>$700</h3>
+					<h4>$700</h4>
 				</div>
 				</div>
 				<div class="col-md-4">
 					<div class="product">
 						<img src="img/product_macbook.png" alt="">
 						<h3>MacBook Pro</h3>
-						<h4>$2200</h3>
+						<h4>$2200</h4>
 					</div>
 				</div>
 			</div>
@@ -136,21 +124,21 @@
 					<div class="product">
 						<img src="img/product_iphone7.png" alt="">
 						<h3>iPhone 7</h3>
-						<h4>$800</h3>
+						<h4>$800</h4>
 					</div>
 				</div>
 				<div class="col-md-4">
 					<div class="product">
 						<img src="img/product_macbookair.png" alt="">
 						<h3>MacBook Air</h3>
-						<h4>$2500</h3>
+						<h4>$2500</h4>
 					</div>
 				</div>
 				<div class="col-md-4">
 					<div class="product">
 						<img src="img/product_iphone10.png" alt="">
 						<h3>iPhone 10</h3>
-						<h4>$1200</h3>
+						<h4>$1200</h4>
 					</div>
 				</div>
 			</div>
@@ -162,7 +150,7 @@
   <div class="container-fluid">
     <!-- Brand and toggle get grouped for better mobile display -->
     <div class="navbar-header">
-      <a class="navbar-brand" href="#">K-Store</a>
+      <a class="navbar-brand" href="index.html">K-Store</a>
     </div>
    	<p class="navbar-text navbar-right">Created by <a href="#" class="navbar-link">Oleksandr Kinashchuk (IK-51) </a></p>
     </div><!-- /.navbar-collapse -->
