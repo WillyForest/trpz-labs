@@ -44,3 +44,17 @@ body {
 	text-decoration: none;
 	color: black;
 }
+.product_info h1 {
+	text-align: center;
+}
+.product_info img {
+	width: 500px;
+}
+#describe h2 {
+	font-size: 22px;
+}
+
+.btn-success {
+	font-size: 25px;
+	margin: 20px auto;
+}
