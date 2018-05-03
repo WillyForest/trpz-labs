@@ -1,0 +1,61 @@
+/* You can add global styles to this file, and also import other style files */
+.product img {
+	width: 250px;
+}
+.product {
+	text-align: center;
+	border: 2px solid transparent;
+}
+.product h3 {
+	line-height: 30px;
+}
+.product h4 {
+	line-height: 25px;
+}
+body {
+		padding-bottom: 100px;
+}
+.product:hover {
+	border: 2px solid #666666;
+	border-radius: 10px;
+	cursor: pointer;
+	-webkit-transition: border 0.5s;
+	-o-transition: border 0.5s;
+	transition: border 0.5s;
+}
+.product:hover h3 {
+	font-size: 30px;
+	line-height: 30px;
+	-webkit-transition: font-size 0.5s;
+	-o-transition: font-size 0.5s;
+	transition: font-size 0.5s;
+}
+.product:hover h4 {
+	font-size: 25px;
+	line-height: 25px;
+	-webkit-transition: font-size 0.5s;
+	-o-transition: font-size 0.5s;
+	transition: font-size 0.5s;
+}
+.contacts {
+	line-height: 25px;
+	font-size: 18px;
+}
+.product a {
+	text-decoration: none;
+	color: black;
+}
+.product_info h1 {
+	text-align: center;
+}
+.product_info img {
+	width: 500px;
+}
+#describe h2 {
+	font-size: 22px;
+}
+
+.btn-success {
+	font-size: 25px;
+	margin: 20px auto;
+}
